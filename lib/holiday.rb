@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
       else
         day = "Thanksgiving"
       end
-      puts "  #{day.capitalize}: #{supplies.join(", ")}"
+      puts "  #{day}: #{supplies.join(", ")}"
     end
   end
 end
